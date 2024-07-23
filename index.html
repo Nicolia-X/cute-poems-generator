@@ -7,29 +7,33 @@
     <title>AI Poem Generator Project</title>
   </head>
   <body>
-    <header>
-      <h1>Cute AI Generated Poems</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Cute AI Generated Poems</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a key word for the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <br />
-      <div>
-        The poem's beginning
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a key word for the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
         <br />
-        The poem continuation
-      </div>
-    </main>
-    <hr />
+        <div class="poem">
+          The poem's beginning
+          <br />
+          The poem continuation
+        </div>
+      </main>
+    </div>
+    <body />
+    <br />
     <footer>
       This AI project was coded by
       <a href="https://github.com/Nicolia-X" target="_blank">Nicolia X</a> and
@@ -40,9 +44,7 @@
         >Github</a
       >
       and hosted on
-      <a href="https://cute-poems-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
+      <a href="https://cute-poems-generator.netlify.app/">Netlify</a>
     </footer>
 
     <script src="src/index.js"></script>
