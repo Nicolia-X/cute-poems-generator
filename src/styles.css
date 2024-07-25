@@ -1,6 +1,6 @@
 body {
   background-color: #f5ddf5;
-  font-family: serifs;
+  font-family: serif;
 }
 
 .container {
@@ -16,36 +16,43 @@ header {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 1.5;
-  color: #272044;
+  color: #af3caf;
+}
+
+a {
+  color: #af3caf;
+  text-decoration: none;
 }
 
 form {
   display: flex;
+  background-color: #f5ddf5;
 }
 
 .form-wrapper {
   background-color: #f5ddf5;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-radius: 10px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.5);
+  box-shadow: 0px 20px 60px rgba(247, 160, 247, 0.5);
 }
 
 .instructions {
-  padding: 15px 20px;
-  border: 1px solid rgb(245, 221, 245, 0.5);
+  padding: 14px 24px;
+  border: 1px solid #af3caf;
   width: 80%;
   font-size: 16px;
-  border-radius: 15;
-  line-height: 20px;
-  color: #272044;
+  border-radius: 10px;
+  line-height: 1.5;
+  color: #3a3838;
+  background-color: #f5ddf5;
 }
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
-  color: #fff;
+  background: #af3caf;
+  color: #f5ddf5;
   border: none;
   width: 150px;
   font-size: 16px;
@@ -54,25 +61,27 @@ form {
 }
 
 .submit-button:hover {
-  background: #fff;
-  color: #885df1;
-  cursor: pointer;
+  background: #eb9ceb;
+  color: #af3caf;
 }
 
 .hint {
   line-height: 1.5;
-  margin-top: 5px;
+  margin-top: 2px;
   opacity: 0.6;
   font-size: 12px;
 }
 
 .poem {
-  font-size: 14px;
-  background-color: #fff;
-  padding: 20px;
+  font-size: 16px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #df9fdf;
+  padding: 15px;
   line-height: 24px;
-  border-left: 3px solid #885df1;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.5);
+  border-left: 3px solid #af3caf;
+  box-shadow: 0px 4px 30px 0px rgba(61, 53, 94, 0.5);
 }
 
 .hidden {
@@ -91,6 +100,7 @@ form {
 
 footer {
   text-align: center;
-  font-size: 13px;
-  margin-top: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
