@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Poem Generator Project</title>
@@ -22,14 +23,14 @@
             required
             autocomplete="off"
             class="instructions"
+            id="instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
         <br />
-        <div class="poem"></div>
+        <div class="poem" id="poem"></div>
       </main>
     </div>
-  </body>
     <br />
     <footer>
       This AI project was coded by
